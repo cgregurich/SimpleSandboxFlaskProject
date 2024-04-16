@@ -2,4 +2,4 @@ function clicked() {
     alert("CLICKED!");
 
 }
-document.getElement("button").addEventListener("click", clicked);
+document.getElementById("button").addEventListener("click", clicked);
